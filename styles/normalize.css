@@ -1,0 +1,210 @@
+/* normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+    margin: 0;
+}
+
+/**
+ * Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/blob/main/src/sanitize.css#L22-L27)
+ */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+figure,
+ol,
+ul,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+/**
+ * Set consistent `vertical-align` in all browsers.
+ */
+
+figure {
+    vertical-align: middle;
+}
+
+/**
+ * Reset the table spacing in all browsers.
+ */
+
+table {
+    border-collapse: collapse;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+    background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the default styling in all browsers.
+ */
+
+pre,
+code,
+kbd,
+samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Reset form elements to make them styleable.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+    overflow: visible; /* 1 */
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+    text-transform: none;
+}
+
+/**
+ * Reset the default button appearance in all browsers.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+/**
+ * Reset the outline offset in Chrome, Safari, and Opera.
+ */
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    outline-offset: -2px;
+}
+
+/* Accessibility
+   ========================================================================== */
+
+/**
+ * 1. Provide a definition for all possible `bolder`/`lighter` values.
+ * 2. Set consistent `text-decoration` across all browsers.
+ */
+
+strong {
+    font-weight: bolder;
+}
+
+/**
+ * Add the correct styling in Chrome, Edge, and Safari.
+ */
+
+progress {
+    vertical-align: baseline;
+}
+
+/* Remove the default vertical scrollbar in IE 10+. */
+/* Remove the default vertical scrollbar in Firefox. */
+/* Improve consistency of default scrollbar style across various browsers. */
+/* Remove the default horizontal scrollbar in IE 10+. */
+/* Remove the default horizontal scrollbar in Firefox. */
+
+html {
+    scrollbar-width: auto;
+    scrollbar-color: initial;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: initial;
+}

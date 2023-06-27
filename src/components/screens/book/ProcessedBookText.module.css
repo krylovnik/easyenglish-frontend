@@ -1,0 +1,4 @@
+.hoveredWord:hover {
+    background-color: rgba(85, 183, 255, 0.3);
+    cursor: pointer;
+}
